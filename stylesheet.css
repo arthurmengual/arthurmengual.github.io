@@ -1,4 +1,10 @@
 body{
-    background-color: blue;
+    background-image: url(img/jammy-jellyfish-wallpaper.jpg);
     color: white;
+}
+
+#title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
