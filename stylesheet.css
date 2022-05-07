@@ -1,15 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Fredoka+One&display=swap');
+
 .header{
     text-align: center;
+    margin-top: 10rem;
 }
+
+h1{
+    font-size: 3rem;
+    font-family: 'Carter One'
+}
+
 h2, h3{
     text-align: center;
+    font-family: 'Fredoka One'
 }
 
 body{
     background-image: url(img/jammy-jellyfish-wallpaper.jpg);
     color: black;
-    font-size: large;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    height: 100vh;
 }
 
 #title{
@@ -59,6 +70,14 @@ body{
     transition: all 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
 }
 
+span {
+    font-size: 1rem;
+}
+
+i{
+    font-size: 4rem;
+}
+
 .footer {
     position: absolute;
     bottom: 0;
@@ -66,4 +85,8 @@ body{
     padding-top: 50px;
     height: 50px;
     text-align: center;
+}
+
+#copyright{
+    font-size: 1rem;
 }
