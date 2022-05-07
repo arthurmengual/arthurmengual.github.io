@@ -1,10 +1,69 @@
+.header{
+    text-align: center;
+}
+h2, h3{
+    text-align: center;
+}
+
 body{
     background-image: url(img/jammy-jellyfish-wallpaper.jpg);
-    color: white;
+    color: black;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #title{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar li {
+    display: inline-block;
+    min-width: 5em;
+    margin: 0 0.5em;
+}
+
+.navbar a {
+    margin-top: 10em;
+    text-decoration: none;
+    display: block;
+    font-family: Arial;
+    position: relative;
+    color: black;
+    padding: .5em 0
+}
+
+.navbar a:hover {
+    color: #0a19bd;
+}
+
+.navbar a:hover:before {
+    left: 0;
+    width: 100%;
+}
+
+.navbar a:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: .5px;
+    background-color: #721170;
+    bottom: calc(-1px);
+    right: 0;
+    transition: all 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-top: 50px;
+    height: 50px;
+    text-align: center;
 }
