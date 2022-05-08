@@ -1,79 +1,75 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Fredoka+One&display=swap');
 
-.header{
-    text-align: center;
-    margin-top: 10rem;
-}
 
-h1{
-    font-size: 3rem;
-    font-family: 'Carter One';
-    text-align: center;
-}
-
-h2, h3{
-    text-align: center;
-    font-family: 'Fredoka One'
-}
 
 body{
     background-image: url(img/jammy-jellyfish-wallpaper.jpg);
     color: black;
-    font-size: 1rem;
-    height: 100%;
 }
 
-
-.navbar {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.header{
     text-align: center;
+    font-family: 'Carter One';
+    padding: 0;
+    width: 90%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.navbar li {
-    display: inline-block;
-    min-width: 5em;
-    margin: 0 0.5em;
+nav{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    display: flex;
+    justify-content: center;
 }
 
-.navbar a {
-    margin-top: 5em;
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 5%;
+    list-style-type: none;
+    width: 50%;
+}
+
+
+nav a {
     text-decoration: none;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     font-family: Arial;
     position: relative;
     color: black;
-    padding: .5em 0
 }
 
-.navbar a:hover {
+nav a:hover {
     color: #0a19bd;
 }
 
-.navbar a:hover:before {
-    left: 0;
-    width: 100%;
-}
-
-.navbar a:before {
-    content: "";
-    position: absolute;
-    width: 0;
-    height: .5px;
-    background-color: #721170;
-    bottom: calc(-1px);
-    right: 0;
-    transition: all 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
-}
-
-span {
-    font-size: 1rem;
-}
-
 i{
-    font-size: 4rem;
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    padding: 20px;
+    border: 1px solid #000;
+    color: #000;
+    text-align: center;
+    font: 32px Arial,
+    sans-serif;
+}
+
+i:hover{
+        color: #0a19bd;
+}
+
+span{
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Fredoka One'
 }
 
 .footer {
@@ -85,6 +81,3 @@ i{
     text-align: center;
 }
 
-#copyright{
-    font-size: 1rem;
-}
